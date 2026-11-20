@@ -4,7 +4,8 @@
 
 <p align="center">
   <a href="README.md">English</a> · <strong>简体中文</strong> ·
-  <a href="docs/INSTALL.zh-CN.md">安装指南</a> · <a href="#作者">作者主页</a>
+  <a href="docs/INSTALL.zh-CN.md">安装指南</a> · <a href="#作者">作者主页</a> ·
+  <a href="LICENSE">原创代码（MIT）</a> · <a href="NOTICE.zh-CN.md">素材权利</a>
 </p>
 
 <p align="center">
@@ -48,4 +49,4 @@ Kindle、Kobo 和 Android 的安装路径、更新、备份与常见问题，见
 
 上方展示的可达鸭与图鉴立绘均取自 PokéAPI 的素材集，其声明将图像版权归于 The Pokémon Company。宝可梦名称、角色形象和商标的权利归各自权利人。免费开源本身不授予使用或再分发这些素材的权利。[第三方素材与版权说明](NOTICE.zh-CN.md)
 
-设备上可在 **宝可梦图鉴 → 玩法说明** 查看署名与版权摘要。插件目录中也附有[离线版权说明与 MIT 许可全文](pokemon.koplugin/COPYRIGHT.txt)。
+设备上可在 **宝可梦图鉴 → 玩法说明** 查看署名与版权摘要。分发原创代码的副本或实质性部分时，请随附版权声明和许可声明。插件目录中的[离线版权说明与 MIT 许可全文](pokemon.koplugin/COPYRIGHT.txt)已包含两者。

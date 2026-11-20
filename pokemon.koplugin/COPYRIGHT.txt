@@ -7,11 +7,15 @@ Reading Pokédex for KOReader
 
 本插件未获宝可梦官方授权或认可。开源、免费和注明出处本身均不授予使用或再分发素材的权利。MIT 许可仅适用于作者有权授权的原创代码与文档。
 
+sprites/ 中的普通图、闪光图、剪影和缩略图均涉及原图的权利。pokedex_data.lua 的简体中文名称取自 PokéAPI。deco/、pokeball.png 和 appbar.pokemon.svg 的逐项创作来源及分发许可尚待核实。再分发上述内容前，请核实相应用途的许可依据。
+
 萧涵瑾 offers this unofficial fan-made plugin free of charge as a noncommercial project. The original code implementing reading time tracking, daily rewards and the Pokédex interface, together with the original project documentation, is copyright © 2026 萧涵瑾 and is available under the MIT License below.
 
 The plugin uses Pokémon names, character designs and illustrations. The artwork comes from PokéAPI’s sprites collection, which credits The Pokémon Company with the image copyright. Pokémon designs and trademarks and other third-party materials belong to their respective rights holders. The optional Aa有龙则灵可爱体 typeface credits © 2023 翰美互通（厦门）科技有限公司.
 
 The project has no official Pokémon authorization or endorsement. Free distribution, open-source publication and attribution do not in themselves grant permission to use or redistribute these assets. The MIT License covers the author's original code and documentation.
+
+Rights in the underlying artwork also apply to the regular portraits, Shiny variants, silhouettes and thumbnails in sprites/. The Simplified Chinese names in pokedex_data.lua are from PokéAPI. Individual credits and permissions for deco/, pokeball.png and appbar.pokemon.svg remain unverified. Check the applicable permissions before redistributing these materials.
 
 宝可梦官方说明 / Pokémon Support
 https://support.pokemon.com/hc/en-us/articles/360000634094-Can-I-use-Pok%C3%A9mon-images-or-materials

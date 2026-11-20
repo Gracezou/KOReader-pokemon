@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: 2026 萧涵瑾
+-- SPDX-License-Identifier: MIT
+
 local _ = require("gettext")
 return {
     fullname = _("宝可梦图鉴"),

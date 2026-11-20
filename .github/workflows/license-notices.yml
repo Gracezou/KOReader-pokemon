@@ -1,0 +1,60 @@
+name: License notices
+
+on:
+  push:
+    paths:
+      - LICENSE
+      - pokemon.koplugin/COPYRIGHT.txt
+      - pokemon.koplugin/main.lua
+      - pokemon.koplugin/_meta.lua
+      - .github/workflows/license-notices.yml
+  pull_request:
+    paths:
+      - LICENSE
+      - pokemon.koplugin/COPYRIGHT.txt
+      - pokemon.koplugin/main.lua
+      - pokemon.koplugin/_meta.lua
+      - .github/workflows/license-notices.yml
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /LICENSE
+            /pokemon.koplugin/COPYRIGHT.txt
+            /pokemon.koplugin/main.lua
+            /pokemon.koplugin/_meta.lua
+      - name: Check the installed notice and original code headers
+        shell: python
+        run: |
+          from hashlib import sha256
+          from pathlib import Path
+
+          license_text = Path("LICENSE").read_bytes()
+          attribution = "2026 萧涵瑾"
+          if f"Copyright (c) {attribution}".encode("utf-8") not in license_text.splitlines():
+              raise SystemExit("Preserve the original author's copyright notice in LICENSE.")
+          # Fingerprint the standard MIT grant, conditions and disclaimer, independent
+          # of the copyright holder, year and line wrapping: https://opensource.org/license/mit
+          terms = license_text.partition(b"Permission is hereby granted")
+          digest = sha256(b" ".join((terms[1] + terms[2]).split())).hexdigest()
+          if digest != "fe2a9817987f862eaced948f0468c7f51d2fedfc48c5c505b246a49a3870e9a5":
+              raise SystemExit("The MIT terms are missing or have changed in LICENSE.")
+          plugin = Path("pokemon.koplugin")
+          if license_text not in (plugin / "COPYRIGHT.txt").read_bytes():
+              raise SystemExit("Include the full text of LICENSE in pokemon.koplugin/COPYRIGHT.txt.")
+          for name in ("main.lua", "_meta.lua"):
+              path = plugin / name
+              headers = path.read_text(encoding="utf-8").splitlines()
+              if f"-- SPDX-FileCopyrightText: {attribution}" not in headers:
+                  raise SystemExit(f"Missing original author's copyright notice in {path}.")
+              if "-- SPDX-License-Identifier: MIT" not in headers:
+                  raise SystemExit(f"Missing MIT license identifier in {path}.")

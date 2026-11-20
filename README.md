@@ -4,7 +4,8 @@
 
 <p align="center">
   <strong>English</strong> · <a href="README.zh-CN.md">简体中文</a> ·
-  <a href="docs/INSTALL.md">Installation guide</a> · <a href="#author">Author profiles</a>
+  <a href="docs/INSTALL.md">Installation guide</a> · <a href="#author">Author profiles</a> ·
+  <a href="LICENSE">Original code (MIT)</a> · <a href="NOTICE.md">Asset rights</a>
 </p>
 
 <p align="center">
@@ -48,4 +49,4 @@ This unofficial fan project is offered free of charge on a noncommercial basis. 
 
 The Psyduck shown above and the Pokédex illustrations are drawn from PokéAPI’s sprite collection, which credits The Pokémon Company with the image copyright. Pokémon names, character designs and trademarks belong to their respective rights holders. Open-source and noncommercial status alone do not grant permission to use or redistribute these materials. [Third-party rights and credits](NOTICE.md)
 
-On your device, open **宝可梦图鉴 → 玩法说明** (Pokédex → How to play) for the credits. The plugin folder also contains the [offline copyright notice and full MIT License](pokemon.koplugin/COPYRIGHT.txt).
+On your device, open **宝可梦图鉴 → 玩法说明** (Pokédex → How to play) for the credits. When sharing copies or substantial portions of the original code, include the copyright and permission notices. The plugin folder carries both in its [offline copyright notice and full MIT License](pokemon.koplugin/COPYRIGHT.txt).

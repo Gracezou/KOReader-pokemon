@@ -1,6 +1,9 @@
+-- SPDX-FileCopyrightText: 2026 萧涵瑾
+-- SPDX-License-Identifier: MIT
+
 --[[--
 宝可梦图鉴（Pokédex）阅读激励插件
-原创插件代码 © 2026 萧涵瑾，采用 MIT 许可证。素材权利见 COPYRIGHT.txt。
+宝可梦名称、形象及其他第三方素材的权利见 COPYRIGHT.txt。
 
 规则：
   * 每天累计阅读满 30 分钟（可调整），随机捕获一只尚未捕获的宝可梦
