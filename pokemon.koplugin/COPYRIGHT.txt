@@ -1,0 +1,41 @@
+宝可梦图鉴 · KOReader 阅读激励插件
+Reading Pokédex for KOReader
+
+这是萧涵瑾免费提供、不以营利为目的的非官方同人插件。实现阅读计时、每日奖励和图鉴界面的原创代码及项目原创文档，版权归萧涵瑾所有，采用下列 MIT 许可证。
+
+插件使用宝可梦角色的名称、形象和立绘。立绘取自 PokéAPI 的 sprites 项目，该项目将图像版权标注为 The Pokémon Company。角色设计、商标及其他第三方素材的权利归各自权利人。可选字体「Aa有龙则灵可爱体」的版权标注为 © 2023 翰美互通（厦门）科技有限公司。
+
+本插件未获宝可梦官方授权或认可。开源、免费和注明出处本身均不授予使用或再分发素材的权利。MIT 许可仅适用于作者有权授权的原创代码与文档。
+
+萧涵瑾 offers this unofficial fan-made plugin free of charge as a noncommercial project. The original code implementing reading time tracking, daily rewards and the Pokédex interface, together with the original project documentation, is copyright © 2026 萧涵瑾 and is available under the MIT License below.
+
+The plugin uses Pokémon names, character designs and illustrations. The artwork comes from PokéAPI’s sprites collection, which credits The Pokémon Company with the image copyright. Pokémon designs and trademarks and other third-party materials belong to their respective rights holders. The optional Aa有龙则灵可爱体 typeface credits © 2023 翰美互通（厦门）科技有限公司.
+
+The project has no official Pokémon authorization or endorsement. Free distribution, open-source publication and attribution do not in themselves grant permission to use or redistribute these assets. The MIT License covers the author's original code and documentation.
+
+宝可梦官方说明 / Pokémon Support
+https://support.pokemon.com/hc/en-us/articles/360000634094-Can-I-use-Pok%C3%A9mon-images-or-materials
+立绘上游声明 / Upstream image credits
+https://github.com/PokeAPI/sprites/blob/master/LICENCE.txt
+
+MIT License
+
+Copyright (c) 2026 萧涵瑾
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
