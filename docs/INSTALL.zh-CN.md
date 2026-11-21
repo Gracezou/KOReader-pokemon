@@ -9,7 +9,11 @@
 若你自定义过阅读菜单，请在安装前备份 `settings/reader_menu_order.lua`。插件启动时会写入这个文件，把精灵球标签加入阅读菜单。
 
 1. 完全退出 KOReader。使用 USB 传输时，在电脑上打开设备存储，找到下表中的插件目录。
-2. 将整个 `pokemon.koplugin/` 复制进去。如果下载的是仓库 ZIP，先解压，只复制其中的插件目录。复制完成后确认设备上有 `plugins/pokemon.koplugin/main.lua`，同一层还能看到 `_meta.lua` 和 `pokedex_data.lua`。图鉴和主面板会从插件目录读取本地图像，使用时请保留素材的子目录结构。
+2. 根据 ZIP 的目录结构复制插件，完成后确认设备上有 `plugins/pokemon.koplugin/main.lua`。
+
+   - **从 GitHub 下载的源码 ZIP。** 解压后，将直接包含 `main.lua` 的文件夹改名为 `pokemon.koplugin`，再把这个文件夹复制到设备的插件目录。
+   - **打开 ZIP 就能看到 `main.lua`。** 在设备上创建 `plugins/pokemon.koplugin/`，将 ZIP 顶层的 `main.lua`、`_meta.lua`、`pokedex_data.lua`、`appbar.pokemon.svg`、`pokeball.png`、`COPYRIGHT.txt` 和完整的 `sprites/`、`deco/` 两个文件夹复制进去。从本地仓库安装也可以按这份清单复制。
+
 3. 可直接使用 KOReader 的默认字体。如果你有权使用可选字体，可将本地的 `fonts/PokemonCute.ttf` 复制到 KOReader 数据目录的 `fonts/` 下，保留文件名。素材与字体的权利信息见[第三方声明](../NOTICE.zh-CN.md)。
 4. 安全弹出设备并重启 KOReader。打开一本书，轻点页面顶部，在主菜单按钮旁打开精灵球标签，选择「打开主面板」。也可以走「工具 → 更多工具 → 宝可梦图鉴 → 打开主面板」。
 
@@ -44,6 +48,6 @@
 - **升级或换设备。** 完全退出 KOReader，备份数据目录里的 `settings/pokemon.lua`，再更新 `plugins/pokemon.koplugin/` 并重启。换设备时，在两边 KOReader 均已退出的情况下，将存档复制到新设备对应的 `settings/` 目录。存档含读过的书名、路径和阅读记录，公开反馈时请隐去个人信息。
 - **恢复进度。** 可在精灵球标签的「存档管理」中立即备份或选择要恢复的记录。插件最多轮换保留 3 份 `settings/pokemon_bak1.lua` 至 `settings/pokemon_bak3.lua`。确认恢复会用所选备份覆盖当前进度。
 - **找不到插件或界面没有响应。** 完全退出并重新打开 KOReader。在插件管理中确认已启用「宝可梦图鉴」，并检查 `plugins/pokemon.koplugin/main.lua` 之间有没有多套一层文件夹。如果只有顶部标签没出现，可以用「工具 → 更多工具」进入。
-- **看不到宝可梦图片。** 剪影表示尚未捕获，黑白屏会以灰阶显示。若整张图格空白，请核对本地立绘、剪影和缩略图是否齐全，例如 `pokemon.koplugin/sprites/sil/small/0001.png`。捕获卡揭晓后，轻点卡片外侧或按设备返回键即可关闭。
+- **看不到宝可梦图片。** 剪影表示尚未捕获，黑白屏会以灰阶显示。若整张图格空白，请核对本地立绘、剪影和缩略图是否齐全，例如 `plugins/pokemon.koplugin/sprites/sil/small/0001.png`。捕获卡揭晓后，轻点卡片外侧或按设备返回键即可关闭。
 - **设备时钟异常。** 电量耗尽等情况可能让时钟倒退，插件会暂时沿用最后记录的日期结算。校准系统日期和时间后重启 KOReader。
 - **卸载。** 退出 KOReader 后移出 `plugins/pokemon.koplugin/`。要保留进度，请保留 `settings/pokemon.lua` 和备份文件。如需恢复原有自定义菜单，此时放回安装前备份的 `settings/reader_menu_order.lua`。插件复制到 KOReader 的图标位于 `icons/appbar.pokemon.svg`。

@@ -16,9 +16,9 @@
 
 | 文件 | 来源及公开分发时需要核实的权利 |
 | --- | --- |
-| `pokemon.koplugin/sprites/` | 原作者注明立绘取自 PokéAPI，本目录还包含闪光、小图和剪影版本。上游声明仓库采用 CC0，同时将图像版权归于 The Pokémon Company。仓库维护者只能放弃其自身享有的权利。本项目未记录允许再分发这些图像及其变体的权利人授权。[上游素材仓库](https://github.com/PokeAPI/sprites) · [上游许可原文](https://github.com/PokeAPI/sprites/blob/master/LICENCE.txt) |
-| `pokemon.koplugin/pokedex_data.lua` | 文件头注明简体中文名称来自 PokéAPI 的 `zh-Hans` 数据。PokéAPI 列出了多个数据来源，并在项目许可中注明宝可梦及角色名称的商标归属。使用这份图鉴数据时须核对所用条目适用的条款。[PokéAPI 数据来源](https://pokeapi.co/about) · [PokéAPI 许可](https://github.com/PokeAPI/pokeapi/blob/master/LICENSE.md) |
-| `pokemon.koplugin/appbar.pokemon.svg`、`pokemon.koplugin/pokeball.png`、`pokemon.koplugin/deco/` | 包含精灵球图标、徽章和装饰图。仓库中缺少逐项创作者及许可记录。发布前须确认图稿来源及公开分发依据。描绘宝可梦元素的图稿也涉及原设计的权利。 |
+| `sprites/` | 原作者注明立绘取自 PokéAPI，本目录还包含闪光、小图和剪影版本。上游声明仓库采用 CC0，同时将图像版权归于 The Pokémon Company。仓库维护者只能放弃其自身享有的权利。本项目未记录允许再分发这些图像及其变体的权利人授权。[上游素材仓库](https://github.com/PokeAPI/sprites) · [上游许可原文](https://github.com/PokeAPI/sprites/blob/master/LICENCE.txt) |
+| `pokedex_data.lua` | 文件头注明简体中文名称来自 PokéAPI 的 `zh-Hans` 数据。PokéAPI 列出了多个数据来源，并在项目许可中注明宝可梦及角色名称的商标归属。使用这份图鉴数据时须核对所用条目适用的条款。[PokéAPI 数据来源](https://pokeapi.co/about) · [PokéAPI 许可](https://github.com/PokeAPI/pokeapi/blob/master/LICENSE.md) |
+| `appbar.pokemon.svg`、`pokeball.png`、`deco/` | 包含精灵球图标、徽章和装饰图。仓库中缺少逐项创作者及许可记录。发布前须确认图稿来源及公开分发依据。描绘宝可梦元素的图稿也涉及原设计的权利。 |
 | `fonts/PokemonCute.ttf` | 字体为「Aa有龙则灵可爱体」。字体文件标注 © 2023 翰美互通（厦门）科技有限公司，保留所有权利。项目未附允许随仓库或安装包再分发字体的许可。可以省略此文件，插件会使用 KOReader 内置字体。[字体目录内的权利说明](fonts/NOTICE.txt) |
 
 ## 公开发布与反馈

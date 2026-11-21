@@ -9,16 +9,16 @@
 </p>
 
 <p align="center">
-  <img src="pokemon.koplugin/sprites/sil/0054.png" width="84" alt="未捕获的可达鸭剪影">
-  <img src="pokemon.koplugin/sprites/0054.png" width="84" alt="黄色的普通可达鸭">
-  <img src="pokemon.koplugin/sprites/shiny/0054.png" width="84" alt="浅蓝色的闪光可达鸭">
+  <img src="sprites/sil/0054.png" width="84" alt="未捕获的可达鸭剪影">
+  <img src="sprites/0054.png" width="84" alt="黄色的普通可达鸭">
+  <img src="sprites/shiny/0054.png" width="84" alt="浅蓝色的闪光可达鸭">
   <br>
   <sub>图鉴 #0054 · 可达鸭｜未捕获的剪影、普通形态与闪光形态</sub>
 </p>
 
 ## 遇见你的第一只宝可梦
 
-1. **安装插件。** 完全退出 KOReader，把整个 `pokemon.koplugin/` 文件夹复制到它的 `plugins/` 目录。复制后应能找到 `plugins/pokemon.koplugin/main.lua`。插件可直接使用 KOReader 内置字体。
+1. **安装插件。** 完全退出 KOReader，解压从 GitHub 下载的源码 ZIP。将直接包含 `main.lua` 的文件夹改名为 `pokemon.koplugin`，再复制到 KOReader 的 `plugins/` 目录。复制后应能找到 `plugins/pokemon.koplugin/main.lua`。插件可直接使用 KOReader 内置字体。
 2. **打开图鉴。** 重启 KOReader，打开一本书，轻点页面顶部。点精灵球标签 **宝可梦图鉴 → 打开主面板**，也可以从 **工具 → 更多工具 → 宝可梦图鉴** 进入。
 3. **设置每日目标。** 默认每天 **30 分钟**，可在 **5～120 分钟**之间调整。只要书籍打开且 KOReader 处于唤醒状态，阅读时间就会累计，达标后会出现捕获卡。
 
@@ -49,4 +49,4 @@ Kindle、Kobo 和 Android 的安装路径、更新、备份与常见问题，见
 
 上方展示的可达鸭与图鉴立绘均取自 PokéAPI 的素材集，其声明将图像版权归于 The Pokémon Company。宝可梦名称、角色形象和商标的权利归各自权利人。免费开源本身不授予使用或再分发这些素材的权利。[第三方素材与版权说明](NOTICE.zh-CN.md)
 
-设备上可在 **宝可梦图鉴 → 玩法说明** 查看署名与版权摘要。分发原创代码的副本或实质性部分时，请随附版权声明和许可声明。插件目录中的[离线版权说明与 MIT 许可全文](pokemon.koplugin/COPYRIGHT.txt)已包含两者。
+设备上可在 **宝可梦图鉴 → 玩法说明** 查看署名与版权摘要。分发原创代码的副本或实质性部分时，请随附版权声明和许可声明。插件目录中的[离线版权说明与 MIT 许可全文](COPYRIGHT.txt)已包含两者。
